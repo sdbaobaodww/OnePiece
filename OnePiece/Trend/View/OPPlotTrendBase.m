@@ -81,7 +81,7 @@
     }
     
     int count                               = self.labelCount;
-    long long strid                         = (max - min) / (count - 1);//每一个坐标轴值的跨度
+    long long strid                         = count == 1 ? 0 : (max - min) / (count - 1);//每一个坐标轴值的跨度
     NSMutableArray *labels                  = [NSMutableArray arrayWithCapacity:count];
     OPPlotLabelModel *label                 = nil;
     for (int i = 0; i < count; i ++)

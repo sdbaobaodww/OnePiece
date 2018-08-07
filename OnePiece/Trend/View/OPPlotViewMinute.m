@@ -274,7 +274,23 @@
         _volumePlotSpaces                       = volume;
         
         __weak typeof(self) wself               = self;
-        OPDataUpdaterMinute *minuteUpdater      = [[OPDataUpdaterMinute alloc] init];
+        //静态数据请求
+        OPDataUpdaterBase *updater              = [[OPDataUpdaterStatic alloc] initWithSecurityModel:securityModel];
+        updater.updateCompleted                 = ^(OPDataUpdaterStatic *updater){
+            
+            [wself _receiveStaicData:updater.staticData];
+        };
+        [updaterManager addDateUpdater:updater];
+        
+        //动态数据请求
+        updater                                 = [[OPDataUpdaterDynamic alloc] initWithSecurityModel:securityModel];
+        updater.updateCompleted                 = ^(OPDataUpdaterDynamic *updater){
+            
+            [wself _receiveDynamicData:updater.dynamicData];
+        };
+        [updaterManager addDateUpdater:updater];
+        
+        OPDataUpdaterMinute *minuteUpdater      = [[OPDataUpdaterMinute alloc] initWithSecurityModel:securityModel];
         minuteUpdater.updateCompleted           = ^(OPDataUpdaterMinute *updater){
             
             [wself _receiveMinuteData:updater];
@@ -305,6 +321,18 @@
 {
     _minuteDataLayer.max                        = max;
     _minuteDataLayer.min                        = min;
+}
+
+- (void)_receiveStaicData:(OPResponsePackage2939 *)staticData
+{
+    [self.securityModel updateWithStaticData:staticData];
+    [self setLastClose:staticData.lastClose decimal:staticData.decimal];
+}
+
+- (void)_receiveDynamicData:(OPResponsePackage2940 *)dynamicData
+{
+    [self.securityModel updateWithDynamicData:dynamicData];
+    [self setMax:dynamicData.high min:dynamicData.low];
 }
 
 @end

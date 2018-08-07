@@ -296,19 +296,19 @@
 		4AE2C9E421197F9600BB5000 /* MarketService */ = {
 			isa = PBXGroup;
 			children = (
-				4AE2C9E521197F9600BB5000 /* OPMarketPackageImpl.m */,
 				4AE2C9E621197F9600BB5000 /* OPMarketDataModel.h */,
-				4AE2C9E721197F9600BB5000 /* OPMarketDataUpdaterManager.h */,
-				4AE2C9E821197F9600BB5000 /* OPMarketMonitor.m */,
-				4AE2C9E921197F9600BB5000 /* OPMarketNetManager.h */,
-				4AE2C9EA21197F9600BB5000 /* OPMarketNetBase.h */,
-				4AE2C9EB21197F9600BB5000 /* OPMarketPackageImpl3010.m */,
 				4AE2C9EC21197F9600BB5000 /* OPMarketDataModel.m */,
-				4AE2C9ED21197F9600BB5000 /* OPMarketPackageImpl.h */,
-				4AE2C9EE21197F9600BB5000 /* OPMarketMonitor.h */,
+				4AE2C9E721197F9600BB5000 /* OPMarketDataUpdaterManager.h */,
 				4AE2C9EF21197F9600BB5000 /* OPMarketDataUpdaterManager.m */,
-				4AE2C9F021197F9600BB5000 /* OPMarketPackageImpl3010.h */,
+				4AE2C9EE21197F9600BB5000 /* OPMarketMonitor.h */,
+				4AE2C9E821197F9600BB5000 /* OPMarketMonitor.m */,
+				4AE2C9EA21197F9600BB5000 /* OPMarketNetBase.h */,
 				4AE2C9F121197F9600BB5000 /* OPMarketNetBase.m */,
+				4AE2C9F021197F9600BB5000 /* OPMarketPackageImpl3010.h */,
+				4AE2C9EB21197F9600BB5000 /* OPMarketPackageImpl3010.m */,
+				4AE2C9ED21197F9600BB5000 /* OPMarketPackageImpl.h */,
+				4AE2C9E521197F9600BB5000 /* OPMarketPackageImpl.m */,
+				4AE2C9E921197F9600BB5000 /* OPMarketNetManager.h */,
 				4AE2C9F221197F9600BB5000 /* OPMarketNetManager.m */,
 			);
 			path = MarketService;
@@ -328,8 +328,8 @@
 			isa = PBXGroup;
 			children = (
 				4AE2C9F521197F9600BB5000 /* OPPackageBase.h */,
-				4AE2C9F621197F9600BB5000 /* OPPackageProtocol.h */,
 				4AE2C9F721197F9600BB5000 /* OPPackageBase.m */,
+				4AE2C9F621197F9600BB5000 /* OPPackageProtocol.h */,
 			);
 			path = DataModule;
 			sourceTree = "<group>";
@@ -337,12 +337,12 @@
 		4AE2C9F821197F9600BB5000 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				4AE2C9FC21197F9600BB5000 /* dzhbitstream.h */,
 				4AE2C9F921197F9600BB5000 /* dzhbitstream.c */,
 				4AE2C9FA21197F9600BB5000 /* NSMutableData+SerializeOperation.h */,
-				4AE2C9FB21197F9600BB5000 /* NSData+SerializeOperation.m */,
-				4AE2C9FC21197F9600BB5000 /* dzhbitstream.h */,
 				4AE2C9FD21197F9600BB5000 /* NSMutableData+SerializeOperation.m */,
 				4AE2C9FE21197F9600BB5000 /* NSData+SerializeOperation.h */,
+				4AE2C9FB21197F9600BB5000 /* NSData+SerializeOperation.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -350,10 +350,10 @@
 		4AE2C9FF21197F9600BB5000 /* Socket */ = {
 			isa = PBXGroup;
 			children = (
-				4AE2CA0021197F9600BB5000 /* OPSocketManager.m */,
-				4AE2CA0121197F9600BB5000 /* OPSocketTransceiver.m */,
-				4AE2CA0221197F9600BB5000 /* OPSocketTransceiver.h */,
 				4AE2CA0321197F9600BB5000 /* OPSocketManager.h */,
+				4AE2CA0021197F9600BB5000 /* OPSocketManager.m */,
+				4AE2CA0221197F9600BB5000 /* OPSocketTransceiver.h */,
+				4AE2CA0121197F9600BB5000 /* OPSocketTransceiver.m */,
 			);
 			path = Socket;
 			sourceTree = "<group>";
@@ -371,16 +371,16 @@
 		4AE2CA0621197F9600BB5000 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				4AE2CA0721197F9600BB5000 /* OPSecurityDatabase.m */,
-				4AE2CA0821197F9600BB5000 /* OPTrendDataUpdater.m */,
-				4AE2CA0921197F9600BB5000 /* OPPageableDataManager.h */,
-				4AE2CA0A21197F9600BB5000 /* OPTrendUpdaterManager.m */,
+				4AE2CA1021197F9600BB5000 /* OPTrendConstant.h */,
 				4AE2CA0B21197F9600BB5000 /* OPTrendConstant.m */,
 				4AE2CA0C21197F9600BB5000 /* OPSecurityDatabase.h */,
+				4AE2CA0721197F9600BB5000 /* OPSecurityDatabase.m */,
+				4AE2CA0921197F9600BB5000 /* OPPageableDataManager.h */,
 				4AE2CA0D21197F9600BB5000 /* OPPageableDataManager.m */,
 				4AE2CA0E21197F9600BB5000 /* OPTrendDataUpdater.h */,
+				4AE2CA0821197F9600BB5000 /* OPTrendDataUpdater.m */,
 				4AE2CA0F21197F9600BB5000 /* OPTrendUpdaterManager.h */,
-				4AE2CA1021197F9600BB5000 /* OPTrendConstant.h */,
+				4AE2CA0A21197F9600BB5000 /* OPTrendUpdaterManager.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -389,14 +389,14 @@
 			isa = PBXGroup;
 			children = (
 				4AE2CA1221197F9600BB5000 /* OPPlotTrendBase.h */,
-				4AE2CA1321197F9600BB5000 /* OPPlotSpacesKLine.m */,
-				4AE2CA1421197F9600BB5000 /* OPPlotSpacesMinute.m */,
-				4AE2CA1521197F9600BB5000 /* OPPlotViewKLine.h */,
-				4AE2CA1621197F9600BB5000 /* OPPlotViewMinute.h */,
-				4AE2CA1721197F9600BB5000 /* OPPlotSpacesMinute.h */,
-				4AE2CA1821197F9600BB5000 /* OPPlotSpacesKLine.h */,
 				4AE2CA1921197F9600BB5000 /* OPPlotTrendBase.m */,
+				4AE2CA1821197F9600BB5000 /* OPPlotSpacesKLine.h */,
+				4AE2CA1321197F9600BB5000 /* OPPlotSpacesKLine.m */,
+				4AE2CA1721197F9600BB5000 /* OPPlotSpacesMinute.h */,
+				4AE2CA1421197F9600BB5000 /* OPPlotSpacesMinute.m */,
+				4AE2CA1621197F9600BB5000 /* OPPlotViewMinute.h */,
 				4AE2CA1A21197F9600BB5000 /* OPPlotViewMinute.m */,
+				4AE2CA1521197F9600BB5000 /* OPPlotViewKLine.h */,
 				4AE2CA1B21197F9600BB5000 /* OPPlotViewKLine.m */,
 			);
 			path = View;
@@ -405,9 +405,9 @@
 		4AE2CA1C21197F9600BB5000 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4AE2CA1F21197F9600BB5000 /* OPTrendKLineViewController.h */,
 				4AE2CA1D21197F9600BB5000 /* OPTrendKLineViewController.m */,
 				4AE2CA1E21197F9600BB5000 /* OPTrendMinuteViewController.h */,
-				4AE2CA1F21197F9600BB5000 /* OPTrendKLineViewController.h */,
 				4AE2CA2021197F9600BB5000 /* OPTrendMinuteViewController.m */,
 			);
 			path = Controllers;
@@ -438,27 +438,27 @@
 		4AE2CA2F21197F9700BB5000 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				4AE2CA3E21197F9700BB5000 /* OPConstant.h */,
 				4AE2CA3021197F9700BB5000 /* OPConstant.m */,
 				4AE2CA3121197F9700BB5000 /* OPDelayedPerforming.h */,
+				4AE2CA3D21197F9700BB5000 /* OPDelayedPerforming.m */,
 				4AE2CA3221197F9700BB5000 /* NSString+NumberFormat.h */,
+				4AE2CA3C21197F9700BB5000 /* NSString+NumberFormat.m */,
+				4AE2CA3B21197F9700BB5000 /* NSDictionary+Description.h */,
 				4AE2CA3321197F9700BB5000 /* NSDictionary+Description.m */,
 				4AE2CA3421197F9700BB5000 /* NSTimer+Util.h */,
+				4AE2CA4121197F9700BB5000 /* NSTimer+Util.m */,
+				4AE2CA4021197F9700BB5000 /* NSString+FastDrawing.h */,
 				4AE2CA3521197F9700BB5000 /* NSString+FastDrawing.m */,
+				4AE2CA3F21197F9700BB5000 /* UIColor+Hex.h */,
 				4AE2CA3621197F9700BB5000 /* UIColor+Hex.m */,
+				4AE2CA4421197F9700BB5000 /* NSArray+Description.h */,
 				4AE2CA3721197F9700BB5000 /* NSArray+Description.m */,
 				4AE2CA3821197F9700BB5000 /* NSArray+Random.h */,
-				4AE2CA3921197F9700BB5000 /* OPThreadTimer.h */,
-				4AE2CA3A21197F9700BB5000 /* NSString+FilePath.h */,
-				4AE2CA3B21197F9700BB5000 /* NSDictionary+Description.h */,
-				4AE2CA3C21197F9700BB5000 /* NSString+NumberFormat.m */,
-				4AE2CA3D21197F9700BB5000 /* OPDelayedPerforming.m */,
-				4AE2CA3E21197F9700BB5000 /* OPConstant.h */,
-				4AE2CA3F21197F9700BB5000 /* UIColor+Hex.h */,
-				4AE2CA4021197F9700BB5000 /* NSString+FastDrawing.h */,
-				4AE2CA4121197F9700BB5000 /* NSTimer+Util.m */,
-				4AE2CA4221197F9700BB5000 /* OPThreadTimer.m */,
 				4AE2CA4321197F9700BB5000 /* NSArray+Random.m */,
-				4AE2CA4421197F9700BB5000 /* NSArray+Description.h */,
+				4AE2CA3921197F9700BB5000 /* OPThreadTimer.h */,
+				4AE2CA4221197F9700BB5000 /* OPThreadTimer.m */,
+				4AE2CA3A21197F9700BB5000 /* NSString+FilePath.h */,
 				4AE2CA4521197F9700BB5000 /* NSString+FilePath.m */,
 			);
 			path = Common;
@@ -486,8 +486,8 @@
 		4AE2CA4B21197F9700BB5000 /* GCDAsyncSocket */ = {
 			isa = PBXGroup;
 			children = (
-				4AE2CA4C21197F9700BB5000 /* GCDAsyncSocket.m */,
 				4AE2CA4D21197F9700BB5000 /* GCDAsyncSocket.h */,
+				4AE2CA4C21197F9700BB5000 /* GCDAsyncSocket.m */,
 			);
 			path = GCDAsyncSocket;
 			sourceTree = "<group>";
@@ -495,19 +495,19 @@
 		4AE2CA4E21197F9700BB5000 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				4AE2CA4F21197F9700BB5000 /* AFSecurityPolicy.h */,
-				4AE2CA5021197F9700BB5000 /* AFNetworkReachabilityManager.h */,
-				4AE2CA5121197F9700BB5000 /* AFURLSessionManager.h */,
-				4AE2CA5221197F9700BB5000 /* AFURLRequestSerialization.h */,
-				4AE2CA5321197F9700BB5000 /* AFURLResponseSerialization.m */,
-				4AE2CA5421197F9700BB5000 /* AFHTTPSessionManager.m */,
-				4AE2CA5521197F9700BB5000 /* AFURLResponseSerialization.h */,
-				4AE2CA5621197F9700BB5000 /* AFURLSessionManager.m */,
-				4AE2CA5721197F9700BB5000 /* AFURLRequestSerialization.m */,
 				4AE2CA5821197F9700BB5000 /* AFNetworking.h */,
-				4AE2CA5921197F9700BB5000 /* AFNetworkReachabilityManager.m */,
+				4AE2CA4F21197F9700BB5000 /* AFSecurityPolicy.h */,
 				4AE2CA5A21197F9700BB5000 /* AFSecurityPolicy.m */,
+				4AE2CA5021197F9700BB5000 /* AFNetworkReachabilityManager.h */,
+				4AE2CA5921197F9700BB5000 /* AFNetworkReachabilityManager.m */,
 				4AE2CA5B21197F9700BB5000 /* AFHTTPSessionManager.h */,
+				4AE2CA5421197F9700BB5000 /* AFHTTPSessionManager.m */,
+				4AE2CA5221197F9700BB5000 /* AFURLRequestSerialization.h */,
+				4AE2CA5721197F9700BB5000 /* AFURLRequestSerialization.m */,
+				4AE2CA5521197F9700BB5000 /* AFURLResponseSerialization.h */,
+				4AE2CA5321197F9700BB5000 /* AFURLResponseSerialization.m */,
+				4AE2CA5121197F9700BB5000 /* AFURLSessionManager.h */,
+				4AE2CA5621197F9700BB5000 /* AFURLSessionManager.m */,
 			);
 			path = AFNetworking;
 			sourceTree = "<group>";

@@ -68,9 +68,9 @@
 
 @synthesize minutes                             = _minutes;
 
-- (instancetype)init
+- (instancetype)initWithSecurityModel:(OPMarketSecurityModel *)securityModel
 {
-    if (self = [super init])
+    if (self = [super initWithSecurityModel:securityModel])
     {
         _requestHelper                          = [[OPIncrementRequestHelper alloc] init];
         _minutes                                = [[NSMutableArray alloc] init];

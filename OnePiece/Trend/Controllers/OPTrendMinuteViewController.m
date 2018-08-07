@@ -76,7 +76,7 @@
     
     CGSize size                                 = [[UIScreen mainScreen] bounds].size;
     CGFloat width                               = 300.;
-    CGRect frame                                = CGRectMake((size.width - width) * .5, 74., width, 200.);
+    CGRect frame                                = CGRectMake((size.width - width) * .5, 44 + kApplicationStatusBarHeight + 10, width, 200.);
     self.minute                                 = [[OPPlotViewMinute alloc] initWithFrame:frame plotViewModel:_minuteModel];
     self.minute.layer.borderColor               = [UIColor blackColor].CGColor;
     self.minute.layer.borderWidth               = 1.;
