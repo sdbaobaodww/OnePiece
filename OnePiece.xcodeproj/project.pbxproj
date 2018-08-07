@@ -7,14 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4AE2C9AE21197F5200BB5000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2C9AD21197F5200BB5000 /* AppDelegate.m */; };
-		4AE2C9B121197F5200BB5000 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2C9B021197F5200BB5000 /* ViewController.m */; };
-		4AE2C9B421197F5200BB5000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE2C9B221197F5200BB5000 /* Main.storyboard */; };
-		4AE2C9B621197F5400BB5000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AE2C9B521197F5400BB5000 /* Assets.xcassets */; };
-		4AE2C9B921197F5400BB5000 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE2C9B721197F5400BB5000 /* LaunchScreen.storyboard */; };
-		4AE2C9BC21197F5400BB5000 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2C9BB21197F5400BB5000 /* main.m */; };
 		4AE2C9C621197F5400BB5000 /* OnePieceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2C9C521197F5400BB5000 /* OnePieceTests.m */; };
 		4AE2C9D121197F5400BB5000 /* OnePieceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2C9D021197F5400BB5000 /* OnePieceUITests.m */; };
+		4AE2CA5C21197F9700BB5000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2C9DE21197F9500BB5000 /* AppDelegate.m */; };
+		4AE2CA5D21197F9700BB5000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AE2C9E121197F9500BB5000 /* Info.plist */; };
+		4AE2CA5E21197F9700BB5000 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2C9E221197F9500BB5000 /* ViewController.m */; };
+		4AE2CA5F21197F9700BB5000 /* OPMarketPackageImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2C9E521197F9600BB5000 /* OPMarketPackageImpl.m */; };
+		4AE2CA6021197F9700BB5000 /* OPMarketMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2C9E821197F9600BB5000 /* OPMarketMonitor.m */; };
+		4AE2CA6121197F9700BB5000 /* OPMarketPackageImpl3010.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2C9EB21197F9600BB5000 /* OPMarketPackageImpl3010.m */; };
+		4AE2CA6221197F9700BB5000 /* OPMarketDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2C9EC21197F9600BB5000 /* OPMarketDataModel.m */; };
+		4AE2CA6321197F9700BB5000 /* OPMarketDataUpdaterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2C9EF21197F9600BB5000 /* OPMarketDataUpdaterManager.m */; };
+		4AE2CA6421197F9700BB5000 /* OPMarketNetBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2C9F121197F9600BB5000 /* OPMarketNetBase.m */; };
+		4AE2CA6521197F9700BB5000 /* OPMarketNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2C9F221197F9600BB5000 /* OPMarketNetManager.m */; };
+		4AE2CA6621197F9700BB5000 /* OPPackageBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2C9F721197F9600BB5000 /* OPPackageBase.m */; };
+		4AE2CA6721197F9700BB5000 /* dzhbitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2C9F921197F9600BB5000 /* dzhbitstream.c */; };
+		4AE2CA6821197F9700BB5000 /* NSData+SerializeOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2C9FB21197F9600BB5000 /* NSData+SerializeOperation.m */; };
+		4AE2CA6921197F9700BB5000 /* NSMutableData+SerializeOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2C9FD21197F9600BB5000 /* NSMutableData+SerializeOperation.m */; };
+		4AE2CA6A21197F9700BB5000 /* OPSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA0021197F9600BB5000 /* OPSocketManager.m */; };
+		4AE2CA6B21197F9700BB5000 /* OPSocketTransceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA0121197F9600BB5000 /* OPSocketTransceiver.m */; };
+		4AE2CA6C21197F9700BB5000 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA0421197F9600BB5000 /* main.m */; };
+		4AE2CA6D21197F9700BB5000 /* OPSecurityDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA0721197F9600BB5000 /* OPSecurityDatabase.m */; };
+		4AE2CA6E21197F9700BB5000 /* OPTrendDataUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA0821197F9600BB5000 /* OPTrendDataUpdater.m */; };
+		4AE2CA6F21197F9700BB5000 /* OPTrendUpdaterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA0A21197F9600BB5000 /* OPTrendUpdaterManager.m */; };
+		4AE2CA7021197F9700BB5000 /* OPTrendConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA0B21197F9600BB5000 /* OPTrendConstant.m */; };
+		4AE2CA7121197F9700BB5000 /* OPPageableDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA0D21197F9600BB5000 /* OPPageableDataManager.m */; };
+		4AE2CA7221197F9700BB5000 /* OPPlotSpacesKLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA1321197F9600BB5000 /* OPPlotSpacesKLine.m */; };
+		4AE2CA7321197F9700BB5000 /* OPPlotSpacesMinute.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA1421197F9600BB5000 /* OPPlotSpacesMinute.m */; };
+		4AE2CA7421197F9800BB5000 /* OPPlotTrendBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA1921197F9600BB5000 /* OPPlotTrendBase.m */; };
+		4AE2CA7521197F9800BB5000 /* OPPlotViewMinute.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA1A21197F9600BB5000 /* OPPlotViewMinute.m */; };
+		4AE2CA7621197F9800BB5000 /* OPPlotViewKLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA1B21197F9600BB5000 /* OPPlotViewKLine.m */; };
+		4AE2CA7721197F9800BB5000 /* OPTrendKLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA1D21197F9600BB5000 /* OPTrendKLineViewController.m */; };
+		4AE2CA7821197F9800BB5000 /* OPTrendMinuteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA2021197F9600BB5000 /* OPTrendMinuteViewController.m */; };
+		4AE2CA7921197F9800BB5000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AE2CA2121197F9600BB5000 /* Assets.xcassets */; };
+		4AE2CA7A21197F9800BB5000 /* OPPlotModelBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA2621197F9600BB5000 /* OPPlotModelBase.m */; };
+		4AE2CA7B21197F9800BB5000 /* OPPlotSpacesBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA2721197F9600BB5000 /* OPPlotSpacesBase.m */; };
+		4AE2CA7C21197F9800BB5000 /* OPPlotViewBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA2921197F9600BB5000 /* OPPlotViewBase.m */; };
+		4AE2CA7D21197F9800BB5000 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE2CA2B21197F9700BB5000 /* LaunchScreen.storyboard */; };
+		4AE2CA7E21197F9800BB5000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE2CA2D21197F9700BB5000 /* Main.storyboard */; };
+		4AE2CA7F21197F9800BB5000 /* OPConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA3021197F9700BB5000 /* OPConstant.m */; };
+		4AE2CA8021197F9800BB5000 /* NSDictionary+Description.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA3321197F9700BB5000 /* NSDictionary+Description.m */; };
+		4AE2CA8121197F9800BB5000 /* NSString+FastDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA3521197F9700BB5000 /* NSString+FastDrawing.m */; };
+		4AE2CA8221197F9800BB5000 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA3621197F9700BB5000 /* UIColor+Hex.m */; };
+		4AE2CA8321197F9800BB5000 /* NSArray+Description.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA3721197F9700BB5000 /* NSArray+Description.m */; };
+		4AE2CA8421197F9800BB5000 /* NSString+NumberFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA3C21197F9700BB5000 /* NSString+NumberFormat.m */; };
+		4AE2CA8521197F9800BB5000 /* OPDelayedPerforming.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA3D21197F9700BB5000 /* OPDelayedPerforming.m */; };
+		4AE2CA8621197F9800BB5000 /* NSTimer+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA4121197F9700BB5000 /* NSTimer+Util.m */; };
+		4AE2CA8721197F9800BB5000 /* OPThreadTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA4221197F9700BB5000 /* OPThreadTimer.m */; };
+		4AE2CA8821197F9800BB5000 /* NSArray+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA4321197F9700BB5000 /* NSArray+Random.m */; };
+		4AE2CA8921197F9800BB5000 /* NSString+FilePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA4521197F9700BB5000 /* NSString+FilePath.m */; };
+		4AE2CA8A21197F9800BB5000 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA4A21197F9700BB5000 /* SSKeychain.m */; };
+		4AE2CA8B21197F9800BB5000 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA4C21197F9700BB5000 /* GCDAsyncSocket.m */; };
+		4AE2CA8C21197F9800BB5000 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA5321197F9700BB5000 /* AFURLResponseSerialization.m */; };
+		4AE2CA8D21197F9800BB5000 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA5421197F9700BB5000 /* AFHTTPSessionManager.m */; };
+		4AE2CA8E21197F9800BB5000 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA5621197F9700BB5000 /* AFURLSessionManager.m */; };
+		4AE2CA8F21197F9800BB5000 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA5721197F9700BB5000 /* AFURLRequestSerialization.m */; };
+		4AE2CA9021197F9800BB5000 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA5921197F9700BB5000 /* AFNetworkReachabilityManager.m */; };
+		4AE2CA9121197F9800BB5000 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA5A21197F9700BB5000 /* AFSecurityPolicy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +84,119 @@
 
 /* Begin PBXFileReference section */
 		4AE2C9A921197F5200BB5000 /* OnePiece.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnePiece.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AE2C9AC21197F5200BB5000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4AE2C9AD21197F5200BB5000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4AE2C9AF21197F5200BB5000 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4AE2C9B021197F5200BB5000 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4AE2C9B321197F5200BB5000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4AE2C9B521197F5400BB5000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4AE2C9B821197F5400BB5000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4AE2C9BA21197F5400BB5000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4AE2C9BB21197F5400BB5000 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4AE2C9C121197F5400BB5000 /* OnePieceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnePieceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE2C9C521197F5400BB5000 /* OnePieceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnePieceTests.m; sourceTree = "<group>"; };
 		4AE2C9C721197F5400BB5000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AE2C9CC21197F5400BB5000 /* OnePieceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnePieceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE2C9D021197F5400BB5000 /* OnePieceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnePieceUITests.m; sourceTree = "<group>"; };
 		4AE2C9D221197F5400BB5000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AE2C9DE21197F9500BB5000 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AE2C9E021197F9500BB5000 /* OPLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPLog.h; sourceTree = "<group>"; };
+		4AE2C9E121197F9500BB5000 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AE2C9E221197F9500BB5000 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4AE2C9E321197F9500BB5000 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4AE2C9E521197F9600BB5000 /* OPMarketPackageImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPMarketPackageImpl.m; sourceTree = "<group>"; };
+		4AE2C9E621197F9600BB5000 /* OPMarketDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPMarketDataModel.h; sourceTree = "<group>"; };
+		4AE2C9E721197F9600BB5000 /* OPMarketDataUpdaterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPMarketDataUpdaterManager.h; sourceTree = "<group>"; };
+		4AE2C9E821197F9600BB5000 /* OPMarketMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPMarketMonitor.m; sourceTree = "<group>"; };
+		4AE2C9E921197F9600BB5000 /* OPMarketNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPMarketNetManager.h; sourceTree = "<group>"; };
+		4AE2C9EA21197F9600BB5000 /* OPMarketNetBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPMarketNetBase.h; sourceTree = "<group>"; };
+		4AE2C9EB21197F9600BB5000 /* OPMarketPackageImpl3010.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPMarketPackageImpl3010.m; sourceTree = "<group>"; };
+		4AE2C9EC21197F9600BB5000 /* OPMarketDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPMarketDataModel.m; sourceTree = "<group>"; };
+		4AE2C9ED21197F9600BB5000 /* OPMarketPackageImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPMarketPackageImpl.h; sourceTree = "<group>"; };
+		4AE2C9EE21197F9600BB5000 /* OPMarketMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPMarketMonitor.h; sourceTree = "<group>"; };
+		4AE2C9EF21197F9600BB5000 /* OPMarketDataUpdaterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPMarketDataUpdaterManager.m; sourceTree = "<group>"; };
+		4AE2C9F021197F9600BB5000 /* OPMarketPackageImpl3010.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPMarketPackageImpl3010.h; sourceTree = "<group>"; };
+		4AE2C9F121197F9600BB5000 /* OPMarketNetBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPMarketNetBase.m; sourceTree = "<group>"; };
+		4AE2C9F221197F9600BB5000 /* OPMarketNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPMarketNetManager.m; sourceTree = "<group>"; };
+		4AE2C9F521197F9600BB5000 /* OPPackageBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPPackageBase.h; sourceTree = "<group>"; };
+		4AE2C9F621197F9600BB5000 /* OPPackageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPPackageProtocol.h; sourceTree = "<group>"; };
+		4AE2C9F721197F9600BB5000 /* OPPackageBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPPackageBase.m; sourceTree = "<group>"; };
+		4AE2C9F921197F9600BB5000 /* dzhbitstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dzhbitstream.c; sourceTree = "<group>"; };
+		4AE2C9FA21197F9600BB5000 /* NSMutableData+SerializeOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+SerializeOperation.h"; sourceTree = "<group>"; };
+		4AE2C9FB21197F9600BB5000 /* NSData+SerializeOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SerializeOperation.m"; sourceTree = "<group>"; };
+		4AE2C9FC21197F9600BB5000 /* dzhbitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dzhbitstream.h; sourceTree = "<group>"; };
+		4AE2C9FD21197F9600BB5000 /* NSMutableData+SerializeOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+SerializeOperation.m"; sourceTree = "<group>"; };
+		4AE2C9FE21197F9600BB5000 /* NSData+SerializeOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SerializeOperation.h"; sourceTree = "<group>"; };
+		4AE2CA0021197F9600BB5000 /* OPSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPSocketManager.m; sourceTree = "<group>"; };
+		4AE2CA0121197F9600BB5000 /* OPSocketTransceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPSocketTransceiver.m; sourceTree = "<group>"; };
+		4AE2CA0221197F9600BB5000 /* OPSocketTransceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPSocketTransceiver.h; sourceTree = "<group>"; };
+		4AE2CA0321197F9600BB5000 /* OPSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPSocketManager.h; sourceTree = "<group>"; };
+		4AE2CA0421197F9600BB5000 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AE2CA0721197F9600BB5000 /* OPSecurityDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPSecurityDatabase.m; sourceTree = "<group>"; };
+		4AE2CA0821197F9600BB5000 /* OPTrendDataUpdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPTrendDataUpdater.m; sourceTree = "<group>"; };
+		4AE2CA0921197F9600BB5000 /* OPPageableDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPPageableDataManager.h; sourceTree = "<group>"; };
+		4AE2CA0A21197F9600BB5000 /* OPTrendUpdaterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPTrendUpdaterManager.m; sourceTree = "<group>"; };
+		4AE2CA0B21197F9600BB5000 /* OPTrendConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPTrendConstant.m; sourceTree = "<group>"; };
+		4AE2CA0C21197F9600BB5000 /* OPSecurityDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPSecurityDatabase.h; sourceTree = "<group>"; };
+		4AE2CA0D21197F9600BB5000 /* OPPageableDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPPageableDataManager.m; sourceTree = "<group>"; };
+		4AE2CA0E21197F9600BB5000 /* OPTrendDataUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPTrendDataUpdater.h; sourceTree = "<group>"; };
+		4AE2CA0F21197F9600BB5000 /* OPTrendUpdaterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPTrendUpdaterManager.h; sourceTree = "<group>"; };
+		4AE2CA1021197F9600BB5000 /* OPTrendConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPTrendConstant.h; sourceTree = "<group>"; };
+		4AE2CA1221197F9600BB5000 /* OPPlotTrendBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPPlotTrendBase.h; sourceTree = "<group>"; };
+		4AE2CA1321197F9600BB5000 /* OPPlotSpacesKLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPPlotSpacesKLine.m; sourceTree = "<group>"; };
+		4AE2CA1421197F9600BB5000 /* OPPlotSpacesMinute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPPlotSpacesMinute.m; sourceTree = "<group>"; };
+		4AE2CA1521197F9600BB5000 /* OPPlotViewKLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPPlotViewKLine.h; sourceTree = "<group>"; };
+		4AE2CA1621197F9600BB5000 /* OPPlotViewMinute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPPlotViewMinute.h; sourceTree = "<group>"; };
+		4AE2CA1721197F9600BB5000 /* OPPlotSpacesMinute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPPlotSpacesMinute.h; sourceTree = "<group>"; };
+		4AE2CA1821197F9600BB5000 /* OPPlotSpacesKLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPPlotSpacesKLine.h; sourceTree = "<group>"; };
+		4AE2CA1921197F9600BB5000 /* OPPlotTrendBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPPlotTrendBase.m; sourceTree = "<group>"; };
+		4AE2CA1A21197F9600BB5000 /* OPPlotViewMinute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPPlotViewMinute.m; sourceTree = "<group>"; };
+		4AE2CA1B21197F9600BB5000 /* OPPlotViewKLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPPlotViewKLine.m; sourceTree = "<group>"; };
+		4AE2CA1D21197F9600BB5000 /* OPTrendKLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPTrendKLineViewController.m; sourceTree = "<group>"; };
+		4AE2CA1E21197F9600BB5000 /* OPTrendMinuteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPTrendMinuteViewController.h; sourceTree = "<group>"; };
+		4AE2CA1F21197F9600BB5000 /* OPTrendKLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPTrendKLineViewController.h; sourceTree = "<group>"; };
+		4AE2CA2021197F9600BB5000 /* OPTrendMinuteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPTrendMinuteViewController.m; sourceTree = "<group>"; };
+		4AE2CA2121197F9600BB5000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AE2CA2221197F9600BB5000 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4AE2CA2421197F9600BB5000 /* OPPlotSpacesBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPPlotSpacesBase.h; sourceTree = "<group>"; };
+		4AE2CA2521197F9600BB5000 /* OPPlotViewBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPPlotViewBase.h; sourceTree = "<group>"; };
+		4AE2CA2621197F9600BB5000 /* OPPlotModelBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPPlotModelBase.m; sourceTree = "<group>"; };
+		4AE2CA2721197F9600BB5000 /* OPPlotSpacesBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPPlotSpacesBase.m; sourceTree = "<group>"; };
+		4AE2CA2821197F9600BB5000 /* OPPlotModelBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPPlotModelBase.h; sourceTree = "<group>"; };
+		4AE2CA2921197F9600BB5000 /* OPPlotViewBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPPlotViewBase.m; sourceTree = "<group>"; };
+		4AE2CA2C21197F9700BB5000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AE2CA2E21197F9700BB5000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		4AE2CA3021197F9700BB5000 /* OPConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPConstant.m; sourceTree = "<group>"; };
+		4AE2CA3121197F9700BB5000 /* OPDelayedPerforming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPDelayedPerforming.h; sourceTree = "<group>"; };
+		4AE2CA3221197F9700BB5000 /* NSString+NumberFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NumberFormat.h"; sourceTree = "<group>"; };
+		4AE2CA3321197F9700BB5000 /* NSDictionary+Description.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Description.m"; sourceTree = "<group>"; };
+		4AE2CA3421197F9700BB5000 /* NSTimer+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Util.h"; sourceTree = "<group>"; };
+		4AE2CA3521197F9700BB5000 /* NSString+FastDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FastDrawing.m"; sourceTree = "<group>"; };
+		4AE2CA3621197F9700BB5000 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		4AE2CA3721197F9700BB5000 /* NSArray+Description.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Description.m"; sourceTree = "<group>"; };
+		4AE2CA3821197F9700BB5000 /* NSArray+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Random.h"; sourceTree = "<group>"; };
+		4AE2CA3921197F9700BB5000 /* OPThreadTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPThreadTimer.h; sourceTree = "<group>"; };
+		4AE2CA3A21197F9700BB5000 /* NSString+FilePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FilePath.h"; sourceTree = "<group>"; };
+		4AE2CA3B21197F9700BB5000 /* NSDictionary+Description.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Description.h"; sourceTree = "<group>"; };
+		4AE2CA3C21197F9700BB5000 /* NSString+NumberFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NumberFormat.m"; sourceTree = "<group>"; };
+		4AE2CA3D21197F9700BB5000 /* OPDelayedPerforming.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPDelayedPerforming.m; sourceTree = "<group>"; };
+		4AE2CA3E21197F9700BB5000 /* OPConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPConstant.h; sourceTree = "<group>"; };
+		4AE2CA3F21197F9700BB5000 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		4AE2CA4021197F9700BB5000 /* NSString+FastDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FastDrawing.h"; sourceTree = "<group>"; };
+		4AE2CA4121197F9700BB5000 /* NSTimer+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Util.m"; sourceTree = "<group>"; };
+		4AE2CA4221197F9700BB5000 /* OPThreadTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPThreadTimer.m; sourceTree = "<group>"; };
+		4AE2CA4321197F9700BB5000 /* NSArray+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Random.m"; sourceTree = "<group>"; };
+		4AE2CA4421197F9700BB5000 /* NSArray+Description.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Description.h"; sourceTree = "<group>"; };
+		4AE2CA4521197F9700BB5000 /* NSString+FilePath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FilePath.m"; sourceTree = "<group>"; };
+		4AE2CA4621197F9700BB5000 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4AE2CA4921197F9700BB5000 /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		4AE2CA4A21197F9700BB5000 /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		4AE2CA4C21197F9700BB5000 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		4AE2CA4D21197F9700BB5000 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		4AE2CA4F21197F9700BB5000 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		4AE2CA5021197F9700BB5000 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		4AE2CA5121197F9700BB5000 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		4AE2CA5221197F9700BB5000 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		4AE2CA5321197F9700BB5000 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		4AE2CA5421197F9700BB5000 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		4AE2CA5521197F9700BB5000 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		4AE2CA5621197F9700BB5000 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		4AE2CA5721197F9700BB5000 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		4AE2CA5821197F9700BB5000 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		4AE2CA5921197F9700BB5000 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		4AE2CA5A21197F9700BB5000 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		4AE2CA5B21197F9700BB5000 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +247,22 @@
 		4AE2C9AB21197F5200BB5000 /* OnePiece */ = {
 			isa = PBXGroup;
 			children = (
-				4AE2C9AC21197F5200BB5000 /* AppDelegate.h */,
-				4AE2C9AD21197F5200BB5000 /* AppDelegate.m */,
-				4AE2C9AF21197F5200BB5000 /* ViewController.h */,
-				4AE2C9B021197F5200BB5000 /* ViewController.m */,
-				4AE2C9B221197F5200BB5000 /* Main.storyboard */,
-				4AE2C9B521197F5400BB5000 /* Assets.xcassets */,
-				4AE2C9B721197F5400BB5000 /* LaunchScreen.storyboard */,
-				4AE2C9BA21197F5400BB5000 /* Info.plist */,
-				4AE2C9BB21197F5400BB5000 /* main.m */,
+				4AE2CA2221197F9600BB5000 /* AppDelegate.h */,
+				4AE2C9DE21197F9500BB5000 /* AppDelegate.m */,
+				4AE2CA2121197F9600BB5000 /* Assets.xcassets */,
+				4AE2CA2A21197F9700BB5000 /* Base.lproj */,
+				4AE2CA2F21197F9700BB5000 /* Common */,
+				4AE2C9E121197F9500BB5000 /* Info.plist */,
+				4AE2C9DF21197F9500BB5000 /* Log */,
+				4AE2CA0421197F9600BB5000 /* main.m */,
+				4AE2C9E421197F9600BB5000 /* MarketService */,
+				4AE2C9F321197F9600BB5000 /* Networking */,
+				4AE2CA2321197F9600BB5000 /* Plot */,
+				4AE2C9E321197F9500BB5000 /* PrefixHeader.pch */,
+				4AE2CA4721197F9700BB5000 /* ThirdLibrary */,
+				4AE2CA0521197F9600BB5000 /* Trend */,
+				4AE2CA4621197F9700BB5000 /* ViewController.h */,
+				4AE2C9E221197F9500BB5000 /* ViewController.m */,
 			);
 			path = OnePiece;
 			sourceTree = "<group>";
@@ -130,6 +283,233 @@
 				4AE2C9D221197F5400BB5000 /* Info.plist */,
 			);
 			path = OnePieceUITests;
+			sourceTree = "<group>";
+		};
+		4AE2C9DF21197F9500BB5000 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				4AE2C9E021197F9500BB5000 /* OPLog.h */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		4AE2C9E421197F9600BB5000 /* MarketService */ = {
+			isa = PBXGroup;
+			children = (
+				4AE2C9E521197F9600BB5000 /* OPMarketPackageImpl.m */,
+				4AE2C9E621197F9600BB5000 /* OPMarketDataModel.h */,
+				4AE2C9E721197F9600BB5000 /* OPMarketDataUpdaterManager.h */,
+				4AE2C9E821197F9600BB5000 /* OPMarketMonitor.m */,
+				4AE2C9E921197F9600BB5000 /* OPMarketNetManager.h */,
+				4AE2C9EA21197F9600BB5000 /* OPMarketNetBase.h */,
+				4AE2C9EB21197F9600BB5000 /* OPMarketPackageImpl3010.m */,
+				4AE2C9EC21197F9600BB5000 /* OPMarketDataModel.m */,
+				4AE2C9ED21197F9600BB5000 /* OPMarketPackageImpl.h */,
+				4AE2C9EE21197F9600BB5000 /* OPMarketMonitor.h */,
+				4AE2C9EF21197F9600BB5000 /* OPMarketDataUpdaterManager.m */,
+				4AE2C9F021197F9600BB5000 /* OPMarketPackageImpl3010.h */,
+				4AE2C9F121197F9600BB5000 /* OPMarketNetBase.m */,
+				4AE2C9F221197F9600BB5000 /* OPMarketNetManager.m */,
+			);
+			path = MarketService;
+			sourceTree = "<group>";
+		};
+		4AE2C9F321197F9600BB5000 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4AE2C9F421197F9600BB5000 /* DataModule */,
+				4AE2C9F821197F9600BB5000 /* Common */,
+				4AE2C9FF21197F9600BB5000 /* Socket */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		4AE2C9F421197F9600BB5000 /* DataModule */ = {
+			isa = PBXGroup;
+			children = (
+				4AE2C9F521197F9600BB5000 /* OPPackageBase.h */,
+				4AE2C9F621197F9600BB5000 /* OPPackageProtocol.h */,
+				4AE2C9F721197F9600BB5000 /* OPPackageBase.m */,
+			);
+			path = DataModule;
+			sourceTree = "<group>";
+		};
+		4AE2C9F821197F9600BB5000 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4AE2C9F921197F9600BB5000 /* dzhbitstream.c */,
+				4AE2C9FA21197F9600BB5000 /* NSMutableData+SerializeOperation.h */,
+				4AE2C9FB21197F9600BB5000 /* NSData+SerializeOperation.m */,
+				4AE2C9FC21197F9600BB5000 /* dzhbitstream.h */,
+				4AE2C9FD21197F9600BB5000 /* NSMutableData+SerializeOperation.m */,
+				4AE2C9FE21197F9600BB5000 /* NSData+SerializeOperation.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4AE2C9FF21197F9600BB5000 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				4AE2CA0021197F9600BB5000 /* OPSocketManager.m */,
+				4AE2CA0121197F9600BB5000 /* OPSocketTransceiver.m */,
+				4AE2CA0221197F9600BB5000 /* OPSocketTransceiver.h */,
+				4AE2CA0321197F9600BB5000 /* OPSocketManager.h */,
+			);
+			path = Socket;
+			sourceTree = "<group>";
+		};
+		4AE2CA0521197F9600BB5000 /* Trend */ = {
+			isa = PBXGroup;
+			children = (
+				4AE2CA0621197F9600BB5000 /* Model */,
+				4AE2CA1121197F9600BB5000 /* View */,
+				4AE2CA1C21197F9600BB5000 /* Controllers */,
+			);
+			path = Trend;
+			sourceTree = "<group>";
+		};
+		4AE2CA0621197F9600BB5000 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4AE2CA0721197F9600BB5000 /* OPSecurityDatabase.m */,
+				4AE2CA0821197F9600BB5000 /* OPTrendDataUpdater.m */,
+				4AE2CA0921197F9600BB5000 /* OPPageableDataManager.h */,
+				4AE2CA0A21197F9600BB5000 /* OPTrendUpdaterManager.m */,
+				4AE2CA0B21197F9600BB5000 /* OPTrendConstant.m */,
+				4AE2CA0C21197F9600BB5000 /* OPSecurityDatabase.h */,
+				4AE2CA0D21197F9600BB5000 /* OPPageableDataManager.m */,
+				4AE2CA0E21197F9600BB5000 /* OPTrendDataUpdater.h */,
+				4AE2CA0F21197F9600BB5000 /* OPTrendUpdaterManager.h */,
+				4AE2CA1021197F9600BB5000 /* OPTrendConstant.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4AE2CA1121197F9600BB5000 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4AE2CA1221197F9600BB5000 /* OPPlotTrendBase.h */,
+				4AE2CA1321197F9600BB5000 /* OPPlotSpacesKLine.m */,
+				4AE2CA1421197F9600BB5000 /* OPPlotSpacesMinute.m */,
+				4AE2CA1521197F9600BB5000 /* OPPlotViewKLine.h */,
+				4AE2CA1621197F9600BB5000 /* OPPlotViewMinute.h */,
+				4AE2CA1721197F9600BB5000 /* OPPlotSpacesMinute.h */,
+				4AE2CA1821197F9600BB5000 /* OPPlotSpacesKLine.h */,
+				4AE2CA1921197F9600BB5000 /* OPPlotTrendBase.m */,
+				4AE2CA1A21197F9600BB5000 /* OPPlotViewMinute.m */,
+				4AE2CA1B21197F9600BB5000 /* OPPlotViewKLine.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4AE2CA1C21197F9600BB5000 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4AE2CA1D21197F9600BB5000 /* OPTrendKLineViewController.m */,
+				4AE2CA1E21197F9600BB5000 /* OPTrendMinuteViewController.h */,
+				4AE2CA1F21197F9600BB5000 /* OPTrendKLineViewController.h */,
+				4AE2CA2021197F9600BB5000 /* OPTrendMinuteViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4AE2CA2321197F9600BB5000 /* Plot */ = {
+			isa = PBXGroup;
+			children = (
+				4AE2CA2421197F9600BB5000 /* OPPlotSpacesBase.h */,
+				4AE2CA2521197F9600BB5000 /* OPPlotViewBase.h */,
+				4AE2CA2621197F9600BB5000 /* OPPlotModelBase.m */,
+				4AE2CA2721197F9600BB5000 /* OPPlotSpacesBase.m */,
+				4AE2CA2821197F9600BB5000 /* OPPlotModelBase.h */,
+				4AE2CA2921197F9600BB5000 /* OPPlotViewBase.m */,
+			);
+			path = Plot;
+			sourceTree = "<group>";
+		};
+		4AE2CA2A21197F9700BB5000 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				4AE2CA2B21197F9700BB5000 /* LaunchScreen.storyboard */,
+				4AE2CA2D21197F9700BB5000 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		4AE2CA2F21197F9700BB5000 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4AE2CA3021197F9700BB5000 /* OPConstant.m */,
+				4AE2CA3121197F9700BB5000 /* OPDelayedPerforming.h */,
+				4AE2CA3221197F9700BB5000 /* NSString+NumberFormat.h */,
+				4AE2CA3321197F9700BB5000 /* NSDictionary+Description.m */,
+				4AE2CA3421197F9700BB5000 /* NSTimer+Util.h */,
+				4AE2CA3521197F9700BB5000 /* NSString+FastDrawing.m */,
+				4AE2CA3621197F9700BB5000 /* UIColor+Hex.m */,
+				4AE2CA3721197F9700BB5000 /* NSArray+Description.m */,
+				4AE2CA3821197F9700BB5000 /* NSArray+Random.h */,
+				4AE2CA3921197F9700BB5000 /* OPThreadTimer.h */,
+				4AE2CA3A21197F9700BB5000 /* NSString+FilePath.h */,
+				4AE2CA3B21197F9700BB5000 /* NSDictionary+Description.h */,
+				4AE2CA3C21197F9700BB5000 /* NSString+NumberFormat.m */,
+				4AE2CA3D21197F9700BB5000 /* OPDelayedPerforming.m */,
+				4AE2CA3E21197F9700BB5000 /* OPConstant.h */,
+				4AE2CA3F21197F9700BB5000 /* UIColor+Hex.h */,
+				4AE2CA4021197F9700BB5000 /* NSString+FastDrawing.h */,
+				4AE2CA4121197F9700BB5000 /* NSTimer+Util.m */,
+				4AE2CA4221197F9700BB5000 /* OPThreadTimer.m */,
+				4AE2CA4321197F9700BB5000 /* NSArray+Random.m */,
+				4AE2CA4421197F9700BB5000 /* NSArray+Description.h */,
+				4AE2CA4521197F9700BB5000 /* NSString+FilePath.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4AE2CA4721197F9700BB5000 /* ThirdLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				4AE2CA4821197F9700BB5000 /* SSKeychain */,
+				4AE2CA4B21197F9700BB5000 /* GCDAsyncSocket */,
+				4AE2CA4E21197F9700BB5000 /* AFNetworking */,
+			);
+			path = ThirdLibrary;
+			sourceTree = "<group>";
+		};
+		4AE2CA4821197F9700BB5000 /* SSKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				4AE2CA4921197F9700BB5000 /* SSKeychain.h */,
+				4AE2CA4A21197F9700BB5000 /* SSKeychain.m */,
+			);
+			path = SSKeychain;
+			sourceTree = "<group>";
+		};
+		4AE2CA4B21197F9700BB5000 /* GCDAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				4AE2CA4C21197F9700BB5000 /* GCDAsyncSocket.m */,
+				4AE2CA4D21197F9700BB5000 /* GCDAsyncSocket.h */,
+			);
+			path = GCDAsyncSocket;
+			sourceTree = "<group>";
+		};
+		4AE2CA4E21197F9700BB5000 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				4AE2CA4F21197F9700BB5000 /* AFSecurityPolicy.h */,
+				4AE2CA5021197F9700BB5000 /* AFNetworkReachabilityManager.h */,
+				4AE2CA5121197F9700BB5000 /* AFURLSessionManager.h */,
+				4AE2CA5221197F9700BB5000 /* AFURLRequestSerialization.h */,
+				4AE2CA5321197F9700BB5000 /* AFURLResponseSerialization.m */,
+				4AE2CA5421197F9700BB5000 /* AFHTTPSessionManager.m */,
+				4AE2CA5521197F9700BB5000 /* AFURLResponseSerialization.h */,
+				4AE2CA5621197F9700BB5000 /* AFURLSessionManager.m */,
+				4AE2CA5721197F9700BB5000 /* AFURLRequestSerialization.m */,
+				4AE2CA5821197F9700BB5000 /* AFNetworking.h */,
+				4AE2CA5921197F9700BB5000 /* AFNetworkReachabilityManager.m */,
+				4AE2CA5A21197F9700BB5000 /* AFSecurityPolicy.m */,
+				4AE2CA5B21197F9700BB5000 /* AFHTTPSessionManager.h */,
+			);
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +615,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AE2C9B921197F5400BB5000 /* LaunchScreen.storyboard in Resources */,
-				4AE2C9B621197F5400BB5000 /* Assets.xcassets in Resources */,
-				4AE2C9B421197F5200BB5000 /* Main.storyboard in Resources */,
+				4AE2CA7D21197F9800BB5000 /* LaunchScreen.storyboard in Resources */,
+				4AE2CA7921197F9800BB5000 /* Assets.xcassets in Resources */,
+				4AE2CA5D21197F9700BB5000 /* Info.plist in Resources */,
+				4AE2CA7E21197F9800BB5000 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +643,56 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AE2C9B121197F5200BB5000 /* ViewController.m in Sources */,
-				4AE2C9BC21197F5400BB5000 /* main.m in Sources */,
-				4AE2C9AE21197F5200BB5000 /* AppDelegate.m in Sources */,
+				4AE2CA5E21197F9700BB5000 /* ViewController.m in Sources */,
+				4AE2CA7C21197F9800BB5000 /* OPPlotViewBase.m in Sources */,
+				4AE2CA8121197F9800BB5000 /* NSString+FastDrawing.m in Sources */,
+				4AE2CA7821197F9800BB5000 /* OPTrendMinuteViewController.m in Sources */,
+				4AE2CA8521197F9800BB5000 /* OPDelayedPerforming.m in Sources */,
+				4AE2CA7121197F9700BB5000 /* OPPageableDataManager.m in Sources */,
+				4AE2CA9121197F9800BB5000 /* AFSecurityPolicy.m in Sources */,
+				4AE2CA6821197F9700BB5000 /* NSData+SerializeOperation.m in Sources */,
+				4AE2CA7021197F9700BB5000 /* OPTrendConstant.m in Sources */,
+				4AE2CA6E21197F9700BB5000 /* OPTrendDataUpdater.m in Sources */,
+				4AE2CA6B21197F9700BB5000 /* OPSocketTransceiver.m in Sources */,
+				4AE2CA6421197F9700BB5000 /* OPMarketNetBase.m in Sources */,
+				4AE2CA6521197F9700BB5000 /* OPMarketNetManager.m in Sources */,
+				4AE2CA8321197F9800BB5000 /* NSArray+Description.m in Sources */,
+				4AE2CA8D21197F9800BB5000 /* AFHTTPSessionManager.m in Sources */,
+				4AE2CA8221197F9800BB5000 /* UIColor+Hex.m in Sources */,
+				4AE2CA7B21197F9800BB5000 /* OPPlotSpacesBase.m in Sources */,
+				4AE2CA6721197F9700BB5000 /* dzhbitstream.c in Sources */,
+				4AE2CA6C21197F9700BB5000 /* main.m in Sources */,
+				4AE2CA6121197F9700BB5000 /* OPMarketPackageImpl3010.m in Sources */,
+				4AE2CA8721197F9800BB5000 /* OPThreadTimer.m in Sources */,
+				4AE2CA8C21197F9800BB5000 /* AFURLResponseSerialization.m in Sources */,
+				4AE2CA6621197F9700BB5000 /* OPPackageBase.m in Sources */,
+				4AE2CA8B21197F9800BB5000 /* GCDAsyncSocket.m in Sources */,
+				4AE2CA7221197F9700BB5000 /* OPPlotSpacesKLine.m in Sources */,
+				4AE2CA7F21197F9800BB5000 /* OPConstant.m in Sources */,
+				4AE2CA8A21197F9800BB5000 /* SSKeychain.m in Sources */,
+				4AE2CA6D21197F9700BB5000 /* OPSecurityDatabase.m in Sources */,
+				4AE2CA6221197F9700BB5000 /* OPMarketDataModel.m in Sources */,
+				4AE2CA8821197F9800BB5000 /* NSArray+Random.m in Sources */,
+				4AE2CA6921197F9700BB5000 /* NSMutableData+SerializeOperation.m in Sources */,
+				4AE2CA7621197F9800BB5000 /* OPPlotViewKLine.m in Sources */,
+				4AE2CA9021197F9800BB5000 /* AFNetworkReachabilityManager.m in Sources */,
+				4AE2CA7A21197F9800BB5000 /* OPPlotModelBase.m in Sources */,
+				4AE2CA7721197F9800BB5000 /* OPTrendKLineViewController.m in Sources */,
+				4AE2CA6A21197F9700BB5000 /* OPSocketManager.m in Sources */,
+				4AE2CA8421197F9800BB5000 /* NSString+NumberFormat.m in Sources */,
+				4AE2CA6321197F9700BB5000 /* OPMarketDataUpdaterManager.m in Sources */,
+				4AE2CA7421197F9800BB5000 /* OPPlotTrendBase.m in Sources */,
+				4AE2CA8621197F9800BB5000 /* NSTimer+Util.m in Sources */,
+				4AE2CA8921197F9800BB5000 /* NSString+FilePath.m in Sources */,
+				4AE2CA8F21197F9800BB5000 /* AFURLRequestSerialization.m in Sources */,
+				4AE2CA8E21197F9800BB5000 /* AFURLSessionManager.m in Sources */,
+				4AE2CA7321197F9700BB5000 /* OPPlotSpacesMinute.m in Sources */,
+				4AE2CA7521197F9800BB5000 /* OPPlotViewMinute.m in Sources */,
+				4AE2CA5F21197F9700BB5000 /* OPMarketPackageImpl.m in Sources */,
+				4AE2CA5C21197F9700BB5000 /* AppDelegate.m in Sources */,
+				4AE2CA6021197F9700BB5000 /* OPMarketMonitor.m in Sources */,
+				4AE2CA8021197F9800BB5000 /* NSDictionary+Description.m in Sources */,
+				4AE2CA6F21197F9700BB5000 /* OPTrendUpdaterManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,20 +728,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4AE2C9B221197F5200BB5000 /* Main.storyboard */ = {
+		4AE2CA2B21197F9700BB5000 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4AE2C9B321197F5200BB5000 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4AE2C9B721197F5400BB5000 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4AE2C9B821197F5400BB5000 /* Base */,
+				4AE2CA2C21197F9700BB5000 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4AE2CA2D21197F9700BB5000 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AE2CA2E21197F9700BB5000 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -435,6 +863,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59B8QAXTFE;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OnePiece/PrefixHeader.pch";
 				INFOPLIST_FILE = OnePiece/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -442,6 +872,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.duan.OnePiece;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SHARED_PRECOMPS_DIR = "$(OBJROOT)/SharedPrecompiledHeaders";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -452,6 +883,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59B8QAXTFE;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OnePiece/PrefixHeader.pch";
 				INFOPLIST_FILE = OnePiece/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,6 +892,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.duan.OnePiece;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SHARED_PRECOMPS_DIR = "$(OBJROOT)/SharedPrecompiledHeaders";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
