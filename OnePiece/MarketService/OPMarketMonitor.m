@@ -130,17 +130,17 @@
 
 - (void)uploadNetLog
 {
-    OPLOG_INFO(OPLogModuleSocket, @"---%@------",NSStringFromSelector(_cmd));
+//    OPLOG_INFO(OPLogModuleSocket, @"---%@------",NSStringFromSelector(_cmd));
 }
 
 - (void)socketManager:(OPSocketManagerBase *)socketManager sendRequestPackage:(id<OPRequestPackageProtocol>)requestPackage
 {
-    OPLOG_INFO(OPLogModuleSocket, @"---%@------",NSStringFromSelector(_cmd));
+//    OPLOG_INFO(OPLogModuleSocket, @"---%@------",NSStringFromSelector(_cmd));
 }
 
 - (void)socketManager:(OPSocketManagerBase *)socketManager packageReceiveResponse:(id<OPRequestPackageProtocol>)requestPackage
 {
-    OPLOG_INFO(OPLogModuleSocket, @"---%@------",NSStringFromSelector(_cmd));
+//    OPLOG_INFO(OPLogModuleSocket, @"---%@------",NSStringFromSelector(_cmd));
 }
 
 - (void)socketManager:(OPSocketManagerBase *)socketManager didConnectToHost:(NSString *)host port:(uint16_t)port

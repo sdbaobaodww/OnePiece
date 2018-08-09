@@ -43,7 +43,7 @@
 {
     if (self = [super init])
     {
-        _timer                                  = [NSTimer scheduledTimerWithTimeInterval:5. target:self selector:@selector(_updateData) userInfo:nil repeats:YES];
+        _timer                                  = [NSTimer scheduledTimerWithTimeInterval:10. target:self selector:@selector(_updateData) userInfo:nil repeats:YES];
     }
     return self;
 }

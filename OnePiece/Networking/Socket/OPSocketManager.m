@@ -202,7 +202,7 @@
     NSData *data                                    = self.receiveDatas;
     Class headerClass                               = [self headerClass];
     int pos                                         = 0;
-    while ([self.receiveDatas length] > pos + [headerClass validHeaderMinSize])
+    while ([self.receiveDatas length] >= pos + [headerClass validHeaderMinSize])
     {
         int itemPos                                 = pos;
         

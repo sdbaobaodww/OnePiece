@@ -416,12 +416,12 @@
 		4AE2CA2321197F9600BB5000 /* Plot */ = {
 			isa = PBXGroup;
 			children = (
-				4AE2CA2421197F9600BB5000 /* OPPlotSpacesBase.h */,
 				4AE2CA2521197F9600BB5000 /* OPPlotViewBase.h */,
-				4AE2CA2621197F9600BB5000 /* OPPlotModelBase.m */,
-				4AE2CA2721197F9600BB5000 /* OPPlotSpacesBase.m */,
-				4AE2CA2821197F9600BB5000 /* OPPlotModelBase.h */,
 				4AE2CA2921197F9600BB5000 /* OPPlotViewBase.m */,
+				4AE2CA2821197F9600BB5000 /* OPPlotModelBase.h */,
+				4AE2CA2621197F9600BB5000 /* OPPlotModelBase.m */,
+				4AE2CA2421197F9600BB5000 /* OPPlotSpacesBase.h */,
+				4AE2CA2721197F9600BB5000 /* OPPlotSpacesBase.m */,
 			);
 			path = Plot;
 			sourceTree = "<group>";
