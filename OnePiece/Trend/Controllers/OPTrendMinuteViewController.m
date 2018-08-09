@@ -14,6 +14,8 @@
 #import "OPTrendDataUpdater.h"
 #import "OPConstant.h"
 #import "OPPlotViewMinute.h"
+#import "OPFloatWindow.h"
+#import "OPFPSMonitor.h"
 
 @interface OPTrendMinuteViewController ()<OPDataUpdaterManagerDelegate>
 
@@ -38,6 +40,8 @@
     
     //绘制上下文
     OPPlotSpacesContext                         *_context;
+    OPFloatWindow                               *floatWindow;
+    OPFPSMonitor                                *fpsMonitor;
 }
 
 - (instancetype)init
@@ -61,6 +65,8 @@
         _level2Model                            = [[OPPlotViewModelMinuteLevel2 alloc] initWithPlotSpacesContext:_context updaterManager:_updaterManager securityModel:model];
         [_minuteModel addMinuteObserver:_volumeModel];
         [_minuteModel addMinuteObserver:_level2Model];
+        
+        fpsMonitor = [[OPFPSMonitor alloc] init];
         
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(connectSuccess:) name:OPMarketConnectedNotification object:nil];
     }
@@ -99,6 +105,20 @@
     self.level2.layer.borderColor               = [UIColor blackColor].CGColor;
     self.level2.layer.borderWidth               = 1.;
     [self.view addSubview:self.level2];
+    
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(.0, .0, 200, 40)];
+    label.backgroundColor = [UIColor whiteColor];
+    label.textColor = [UIColor blackColor];
+    label.numberOfLines = 0;
+    label.font = [UIFont systemFontOfSize:10];
+//    label.text = @"恰似一江春水向东流";
+    
+    floatWindow = [[OPFloatWindow alloc] initWithFrame:CGRectMake(100, 100, 200, 80) contentView:label];
+    [floatWindow show];
+    
+    [fpsMonitor startFPSMonitorWithBlock:^(NSInteger fps) {
+        label.text = [NSString stringWithFormat:@" fps:   %ld", fps];
+    }];
 }
 
 - (void)connectSuccess:(NSNotification *)notify

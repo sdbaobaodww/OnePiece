@@ -63,6 +63,8 @@
 		4AE2CA8F21197F9800BB5000 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA5721197F9700BB5000 /* AFURLRequestSerialization.m */; };
 		4AE2CA9021197F9800BB5000 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA5921197F9700BB5000 /* AFNetworkReachabilityManager.m */; };
 		4AE2CA9121197F9800BB5000 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CA5A21197F9700BB5000 /* AFSecurityPolicy.m */; };
+		4AE2CBAE211C36E500BB5000 /* OPFloatWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CBAD211C36E500BB5000 /* OPFloatWindow.m */; };
+		4AE2CBB1211C415500BB5000 /* OPFPSMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2CBB0211C415500BB5000 /* OPFPSMonitor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -197,6 +199,10 @@
 		4AE2CA5921197F9700BB5000 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		4AE2CA5A21197F9700BB5000 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
 		4AE2CA5B21197F9700BB5000 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		4AE2CBAC211C36E500BB5000 /* OPFloatWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPFloatWindow.h; sourceTree = "<group>"; };
+		4AE2CBAD211C36E500BB5000 /* OPFloatWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPFloatWindow.m; sourceTree = "<group>"; };
+		4AE2CBAF211C415500BB5000 /* OPFPSMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPFPSMonitor.h; sourceTree = "<group>"; };
+		4AE2CBB0211C415500BB5000 /* OPFPSMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPFPSMonitor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -460,6 +466,10 @@
 				4AE2CA4221197F9700BB5000 /* OPThreadTimer.m */,
 				4AE2CA3A21197F9700BB5000 /* NSString+FilePath.h */,
 				4AE2CA4521197F9700BB5000 /* NSString+FilePath.m */,
+				4AE2CBAC211C36E500BB5000 /* OPFloatWindow.h */,
+				4AE2CBAD211C36E500BB5000 /* OPFloatWindow.m */,
+				4AE2CBAF211C415500BB5000 /* OPFPSMonitor.h */,
+				4AE2CBB0211C415500BB5000 /* OPFPSMonitor.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -644,6 +654,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AE2CA5E21197F9700BB5000 /* ViewController.m in Sources */,
+				4AE2CBB1211C415500BB5000 /* OPFPSMonitor.m in Sources */,
 				4AE2CA7C21197F9800BB5000 /* OPPlotViewBase.m in Sources */,
 				4AE2CA8121197F9800BB5000 /* NSString+FastDrawing.m in Sources */,
 				4AE2CA7821197F9800BB5000 /* OPTrendMinuteViewController.m in Sources */,
@@ -671,6 +682,7 @@
 				4AE2CA7F21197F9800BB5000 /* OPConstant.m in Sources */,
 				4AE2CA8A21197F9800BB5000 /* SSKeychain.m in Sources */,
 				4AE2CA6D21197F9700BB5000 /* OPSecurityDatabase.m in Sources */,
+				4AE2CBAE211C36E500BB5000 /* OPFloatWindow.m in Sources */,
 				4AE2CA6221197F9700BB5000 /* OPMarketDataModel.m in Sources */,
 				4AE2CA8821197F9800BB5000 /* NSArray+Random.m in Sources */,
 				4AE2CA6921197F9700BB5000 /* NSMutableData+SerializeOperation.m in Sources */,
